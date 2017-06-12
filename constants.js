@@ -8,7 +8,7 @@
         "value": "12.566370 * 10^-7 newtons per ampere squared",
         "prefix": "The Magnetic Constant is "
     },
-    "newton gravitation": {
+    "newtonian constant of gravitation": {
         "value": "6.67408 * 10^-11 meters cubed per kilogram second squared",
         "prefix": "The Newtonian Constant of Gravitation is "
     },
@@ -61,13 +61,13 @@
         "value": "3.152451 * 10^-8 electronvolts per tesla",
         "prefix": "The Nuclear Magneton is "
     },
-    "von klitzing": {
+    "von klitzing constant": {
         "value": "25812.807455 ohms",
         "prefix": "The von Klitzing constant is "
     },
     // Chemistry Constants
     "atomic mass constant": {
-        "value": "1.660539 * 10^-27 kg",
+        "value": "1.660539 * 10^-27 kilograms",
         "prefix": "The Atomic Mass Constant is "
     },
     "avogadro's constant": {

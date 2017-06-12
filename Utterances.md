@@ -3,25 +3,30 @@ GetConstant Give me Avogadro's Number
 GetConstant What is Avogadro's Number
 
 GetConstant Tell me {Constant}
+GetConstant Tell me the {Constant}
 GetConstant Give me {Constant}
+GetConstant Give me the {Constant}
 GetConstant What is {Constant}
 GetConstant What is the {Constant}
 GetConstant How much is {Constant}
 GetConstant How much is a {Constant}
 GetConstant How much is an {Constant}
+GetConstant How much is the {Constant}
 GetConstant How big is {Constant}
 GetConstant How big is a {Constant}
 GetConstant How big is an {Constant}
+GetConstant How big is the {Constant}
 GetConsatnt How long is {Constant}
-GetConsatnt How long is a {Constant}
-GetConsatnt How long is an {Constant}
-
+GetConstant How long is a {Constant}
+GetConstant How long is an {Constant}
+GetConstant How long is the {Constant}
 GetConstant What is the constant of {Constant}
 
 Samples:
-What is the Boltzmann Constant
-What is Avogadro's Constant
+What is the Avogadro Constant
 How big is Planck Mass
+Give me the speed of light
+Tell me the gas constant
 
 
 Slots:
@@ -71,7 +76,7 @@ elementary charge
 josephson constant
 magnetic flux quantum
 nuclear magneton
-von klitzing
+von klitzing constant
 atomic mass constant
 avogadro's constant
 boltzmann constant
