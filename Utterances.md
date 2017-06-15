@@ -6,6 +6,8 @@ GetConstant Tell me {Constant}
 GetConstant Tell me the {Constant}
 GetConstant Give me {Constant}
 GetConstant Give me the {Constant}
+GetConstant Find me {Constant}
+GetConstant Find me the {Constant}
 GetConstant What is {Constant}
 GetConstant What is the {Constant}
 GetConstant How much is {Constant}

@@ -1,4 +1,24 @@
-{
+'use strict';
+var Alexa = require('alexa-sdk');
+
+//=========================================================================================================================================
+//TODO: The items below this comment need your attention.
+//=========================================================================================================================================
+
+//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
+//Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
+var APP_ID = "amzn1.ask.skill.17eb6555-42e2-40f8-841d-f5a1774126b7";
+
+var SKILL_NAME = "Physics Constants";
+var GET_FACT_MESSAGE = "";
+var HELP_MESSAGE = "Ask me a physics constant, like: What is the Planck Constant?";
+var HELP_REPROMPT = "I didn't catch that. " + HELP_MESSAGE;
+var STOP_MESSAGE = "Goodbye!";
+
+//=========================================================================================================================================
+//TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
+//=========================================================================================================================================
+var data = {
     // Universal Constants
     "electric constant": {
         "value": "8.854187 * 10^-12 farads per meter",
@@ -143,7 +163,7 @@
         "value": "2.426310 * 10^-12 meters",
         "prefix": "The Compton Wavelength is "
     },
-    "deuteron mass": {  
+    "deuteron mass": {
         "value": "3.343583 * 10^-27 kilograms",
         "prefix": "Deuteron mass is "
     },
@@ -179,7 +199,7 @@
         "value": "1.674927 * 10^-27 kilograms",
         "prefix": "Neutron mass is "
     },
-    "rydberg constant": {  
+    "rydberg constant": {
         "value": "10973731.568508 inverse meters",
         "prefix": "The Rydberg Constant is "
     },
@@ -191,4 +211,40 @@
         "value": "5.007357 * 10^-27 kilograms",
         "prefix": "Trion mass is "
     }
-}
+};
+
+//=========================================================================================================================================
+//Editing anything below this line might break your skill.  
+//=========================================================================================================================================
+exports.handler = function(event, context, callback) {
+    var alexa = Alexa.handler(event, context);
+    alexa.APP_ID = APP_ID;
+    alexa.registerHandlers(handlers);
+    alexa.execute();
+};
+
+var handlers = {
+    'LaunchRequest': function () {
+        var speechOutput = HELP_MESSAGE;
+        var reprompt = HELP_REPROMPT;         
+        this.emit(':ask', speechOutput, reprompt);
+    },
+    'GetConstant': function () {
+        var constant = this.event.request.intent.slots.Constant.value.toLowerCase();
+        if (!data[constant]) this.emit(':ask', "Sorry, I can't find " + constant + ". Please try it again.", HELP_REPROMPT);
+        
+        var speechOutput = data[constant].prefix + data[constant].value;
+        this.emit(':tellWithCard', speechOutput, SKILL_NAME, constant);
+    },
+    'AMAZON.HelpIntent': function () {
+        var speechOutput = HELP_MESSAGE;
+        var reprompt = HELP_REPROMPT;
+        this.emit(':ask', speechOutput, reprompt);
+    },
+    'AMAZON.CancelIntent': function () {
+        this.emit(':tell', STOP_MESSAGE);
+    },
+    'AMAZON.StopIntent': function () {
+        this.emit(':tell', STOP_MESSAGE);
+    }
+};
