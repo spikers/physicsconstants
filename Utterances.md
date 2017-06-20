@@ -3,13 +3,25 @@ GetConstant Give me Avogadro's Number
 GetConstant What is Avogadro's Number
 
 GetConstant Tell me {Constant}
+GetConstant Tell me a {Constant}
+GetConstant Tell me an {Constant}
 GetConstant Tell me the {Constant}
 GetConstant Give me {Constant}
+GetConstant Give me a {Constant}
+GetConstant Give me an {Constant}
 GetConstant Give me the {Constant}
 GetConstant Find me {Constant}
+GetConstant Find me a {Constant}
+GetConstant Find me an {Constant}
 GetConstant Find me the {Constant}
 GetConstant What is {Constant}
+GetConstant What is a {Constant}
+GetConstant What is an {Constant}
 GetConstant What is the {Constant}
+GetConstant What size is {Constant}
+GetConstant What size is a {Constant}
+GetConstant What size is an {Constant}
+GetConstant What size is the {Constant}
 GetConstant How much is {Constant}
 GetConstant How much is a {Constant}
 GetConstant How much is an {Constant}
@@ -18,10 +30,26 @@ GetConstant How big is {Constant}
 GetConstant How big is a {Constant}
 GetConstant How big is an {Constant}
 GetConstant How big is the {Constant}
-GetConsatnt How long is {Constant}
+GetConstant How long is {Constant}
 GetConstant How long is a {Constant}
 GetConstant How long is an {Constant}
 GetConstant How long is the {Constant}
+GetConstant How heavy is {Constant}
+GetConstant How heavy is a {Constant}
+GetConstant How heavy is an {Constant}
+GetConstant How heavy is the {Constant}
+GetConstant How small is {Constant}
+GetConstant How small is a {Constant}
+GetConstant How small is an {Constant}
+GetConstant How small is the {Constant}
+GetConstant How short is {Constant}
+GetConstant How short is a {Constant}
+GetConstant How short is an {Constant}
+GetConstant How short is the {Constant}
+GetConstant How light is {Constant}
+GetConstant How light is a {Constant}
+GetConstant How light is an {Constant}
+GetConstant How light is the {Constant}
 GetConstant What is the constant of {Constant}
 
 Samples:
@@ -55,6 +83,7 @@ Constant of Gravitation
 Gravitational Constant
 
 avogadro's constant AKA
+avogadro constant
 avogadro's number
 
 Molar gas constant AKA

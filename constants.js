@@ -189,6 +189,6 @@
     },
     "triton mass": {
         "value": "5.007357 * 10^-27 kilograms",
-        "prefix": "Trion mass is "
+        "prefix": "Triton mass is "
     }
 }
