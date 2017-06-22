@@ -50,6 +50,54 @@ GetConstant How light is {Constant}
 GetConstant How light is a {Constant}
 GetConstant How light is an {Constant}
 GetConstant How light is the {Constant}
+GetConstant Tell me {Constant} constant
+GetConstant Tell me a {Constant} constant
+GetConstant Tell me an {Constant} constant
+GetConstant Tell me the {Constant} constant
+GetConstant Give me {Constant} constant
+GetConstant Give me a {Constant} constant
+GetConstant Give me an {Constant} constant
+GetConstant Give me the {Constant} constant
+GetConstant Find me {Constant} constant
+GetConstant Find me a {Constant} constant
+GetConstant Find me an {Constant} constant
+GetConstant Find me the {Constant} constant
+GetConstant What is {Constant} constant
+GetConstant What is a {Constant} constant
+GetConstant What is an {Constant} constant
+GetConstant What is the {Constant} constant
+GetConstant What size is {Constant} constant
+GetConstant What size is a {Constant} constant
+GetConstant What size is an {Constant} constant
+GetConstant What size is the {Constant} constant
+GetConstant How much is {Constant} constant
+GetConstant How much is a {Constant} constant
+GetConstant How much is an {Constant} constant
+GetConstant How much is the {Constant} constant
+GetConstant How big is {Constant} constant
+GetConstant How big is a {Constant} constant
+GetConstant How big is an {Constant} constant
+GetConstant How big is the {Constant} constant
+GetConstant How long is {Constant} constant
+GetConstant How long is a {Constant} constant
+GetConstant How long is an {Constant} constant
+GetConstant How long is the {Constant} constant
+GetConstant How heavy is {Constant} constant
+GetConstant How heavy is a {Constant} constant
+GetConstant How heavy is an {Constant} constant
+GetConstant How heavy is the {Constant} constant
+GetConstant How small is {Constant} constant
+GetConstant How small is a {Constant} constant
+GetConstant How small is an {Constant} constant
+GetConstant How small is the {Constant} constant
+GetConstant How short is {Constant} constant
+GetConstant How short is a {Constant} constant
+GetConstant How short is an {Constant} constant
+GetConstant How short is the {Constant} constant
+GetConstant How light is {Constant} constant
+GetConstant How light is a {Constant} constant
+GetConstant How light is an {Constant} constant
+GetConstant How light is the {Constant} constant
 GetConstant What is the constant of {Constant}
 
 Samples:
