@@ -114,7 +114,7 @@
         "value": "5.670367 * 10^-8 watts per meter squared kelvin to the power of four",
         "prefix": "The Stefan-Boltzmann constant is "
     },
-    "wien frequency displacement law constant ": {
+    "wien frequency displacement law constant": {
         "value": "5.8789238 * 10^10 hertz per kelvin",
         "prefix": "The Wien Frequency Displacement Law Constant is "
     },
