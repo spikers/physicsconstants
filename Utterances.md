@@ -1,7 +1,3 @@
-GetConstant Tell me Avogadro's Number
-GetConstant Give me Avogadro's Number
-GetConstant What is Avogadro's Number
-
 GetConstant Tell me {Constant}
 GetConstant Tell me a {Constant}
 GetConstant Tell me an {Constant}
@@ -187,7 +183,3 @@ neutron mass
 rydberg constant
 tau mass
 triton mass
-
-
-What is the speed of light
-
